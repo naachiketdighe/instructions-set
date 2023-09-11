@@ -15,7 +15,7 @@ Before you begin, please make sure you have the following installed:
 
 You can install Flask using pip. In VSC, under Terminal, select open new terminal, as shown below
 
-![Opening a new terminal](https://ibb.co/vsrPQd7)
+![Opening a new terminal](https://i.ibb.co/bHyB2vS/Screen-Shot-2023-09-11-at-11-56-51-AM.png)
 
 Inside the terminal, make sure you have pip installed, and then install Flask
 ```python
@@ -45,7 +45,7 @@ Under File, select New File and then select Create a new File and name it app.py
 In your app.py, add the following code below:
 
 ```python
-from flask import Flask
+from flask import Flask, render_template
 
 # Create a Flask application instance
 app = Flask(__name__)
@@ -53,14 +53,52 @@ app = Flask(__name__)
 # Define a route and a function to handle the request
 @app.route('/')
 def hello():
-    return 'Hello, World!'
+    return render_template(index.html)
 
 # Run the application if this script is executed
 if __name__ == '__main__':
     app.run()
 ```
 
+## Step 5: Create an HTML file
 
+In VSC, on the left-hand side, navigate to the parent folder and right-click to add another folder inside Flask_app
+
+Name this folder Templates(this is important, for Flask to identify your HTML file)
+
+Add a file to the Templates folder, name it index.html, and add the following code:
+
+```HTML
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <script src="" async defer></script>
+    </body>
+</html>
+```
+
+## Step 6: Run your Flask App
+
+In the terminal of VSC, type in the following command:
+```python
+python app.py
+```
 
 
 
