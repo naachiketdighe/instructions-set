@@ -19,8 +19,8 @@ By the end of this tutorial, you'll be equipped with the knowledge and skills to
 [Bash](https://medium.com/@krish.raghuram/terminal-shell-and-bash-3e76218c8865): Bash is a command-line shell, which means it's a program that interprets and executes commands entered by the user. Bash is like the conductor of an orchestra for your computer. It's a special program that lets you talk to your computer and give it instructions by typing text commands. Instead of using a mouse and clicking on icons, with Bash, you type what you want your computer to do, and it listens and does it. It's a bit like having a conversation with your computer in a language it understands. So, think of Bash as your computer's language interpreter, allowing you to tell it what you need it to do, whether it's opening files, organizing folders, or running other programs.
 
 [HTML](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics) provides the structure of a webpage.
-[CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)enhances the style and appearance of the webpage.
-[JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript): adds interactive behavior and functionality to the webpage.
+[CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) enhances the style and appearance of the webpage.
+[JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) adds interactive behavior and functionality to the webpage.
 
 Together, these technologies work harmoniously to create the websites and web applications you use every day on the internet.
 
