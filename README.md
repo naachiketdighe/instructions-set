@@ -2,7 +2,9 @@
 
 In this guide, we will walk through the process of creating a basic [Flask](https://flask.palletsprojects.com/en/2.3.x/) application in Python. Flask is a micro web framework, that we can import as a Python module to develop web applications easily.
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Flask_logo.svg/1200px-Flask_logo.svg.png)
+![](https://img-c.udemycdn.com/course/750x422/3407178_5bd8_3.jpg)
+
+Image Source: [Udemy](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.udemy.com%2Fcourse%2Fflask-framework-complete-course-for-beginners%2F&psig=AOvVaw0n9O9xc-9AsMvPIy51aJCk&ust=1695740283134000&source=images&cd=vfe&opi=89978449&ved=0CAQQjB1qFwoTCIio8P6CxoEDFQAAAAAdAAAAABAD)
 
 ## Introduction
 
@@ -86,7 +88,18 @@ if __name__ == '__main__':
 
 In VSC, on the left-hand side, navigate to the parent folder and right-click to add another folder inside Flask_app
 
-Name this folder Templates(this is important, for Flask to identify your HTML file)
+Name this folder templates(this is important, for Flask to identify your HTML file)
+
+Your file structure, when adding HTML and CSS files should look a little something like this:
+
+![](https://www.softwaretestinghelp.com/wp-content/qa/uploads/2020/10/Flask-Blueprint-layouts.png)
+
+Image source: [Software Testing Help](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.softwaretestinghelp.com%2Fflask-app-with-blueprint-and-bootstrap%2F&psig=AOvVaw1kIs9awozw_j2jlaSwzOXD&ust=1695738246576000&source=images&cd=vfe&opi=89978449&ved=0CAQQjB1qFwoTCOCIkrH7xYEDFQAAAAAdAAAAABAD)
+
+
+All HTML files are inside a folder named templates and all the CSS files are under a folder called static.
+
+If you're having trouble getting VS Code to recognize the files, try using the [pathlib](https://docs.python.org/3/library/pathlib.html) library in Python.
 
 Add a file to the Templates folder, name it index.html, and add the following code:
 
